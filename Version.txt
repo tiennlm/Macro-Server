@@ -1,1 +1,1 @@
-2;no; You are using an old version. Version V2 is available now. Please contact John Doe (john@doe.com) for the update as soon as possible. This file will close now.
+2
