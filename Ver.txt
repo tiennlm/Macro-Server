@@ -1,10 +1,1 @@
-# Structure of this file:
-
-# tool will read the last line of this file and process the line
-# if the tools version number is lower than the version mentioned in that line, the next parameter is evaluated (forceClose).
-# if forceCloseOfFile = "yes" then the message will be displayed as critical and after clicking ok the Excel file will close; if no then the message is displayed as an alert
-# the message behind the semicolon is displayed in the file as a pop up
-
-# Version number;forceCloseOfFile (yes/no); Message to be displayed to user at startup (e.g "Please update to Version V20");
-
 2;yes; You are using an old version. Version V2 is available now. Please contact John Doe (john@doe.com) for the update as soon as possible. This file will close now.
