@@ -236,7 +236,7 @@ lr1 = Monthly.Range("B" & Rows.Count).End(xlUp).Row
     .Range("H5").Formula = "=SUM(SUMIFS(Other!$G:$G,Other!$B:$B,'Monthly PIT'!$B5,Other!$P:$P,TEXT('Monthly PIT'!$C$1,""yyyymm""),Other!$U:$U,{""Bonus-Extra"",""Bonus-ThuPhi"",""Hoa hong moi tai tro"",""Bonus-Retention"",""Special Bonus"",""Home Leave""}))"
     .Range("I5").Formula = "=SUM(SUMIFS(Other!$G:$G,Other!$B:$B,'Monthly PIT'!$B5,Other!$P:$P,TEXT('Monthly PIT'!$C$1,""yyyymm""),Other!$U:$U,{""Bonus-YE"",""Indirect Bonus""}))"
     .Range("J5").Formula = "=SUM(SUMIFS(Other!$G:$G,Other!$B:$B,'Monthly PIT'!$B5,Other!$P:$P,TEXT('Monthly PIT'!$C$1,""yyyymm""),Other!$U:$U,{""Bonus-TT2"",""Leasing Bonus"",""Acc-Phi moi gioi"",""PSD Petro"",""Mobile""}))"
-    .Range("K5").Formula = "=SUMIFS(Other!$G:$G,Other!$B:$B,'Monthly PIT'!$B5,Other!$P:$P,TEXT('Monthly PIT'!$C$1,""yyyymm""),Other!$U:$U,""<>Sal-Phu cap CTV Sale"",Other!$Y:$Y,""<>Sal-Allowance*"")-$H5-$I5-$J5"
+    .Range("K5").Formula = "=SUMIFS(Other!$G:$G,Other!$B:$B,'Monthly PIT'!$B5,Other!$P:$P,TEXT('Monthly PIT'!$C$1,""yyyymm""),Other!$U:$U,""<>Sal-Phu cap CTV Sale"",Other!$U:$U,""<>Sal-Allowance*"")-$H5-$I5-$J5"
     .Range("L5").Formula = "=E5 + F5 - G5 + H5 + J5 + K5 + I5"
     .Range("M5").Formula = "=SUMIFS('Sal-Local'!$BT:$BT,'Sal-Local'!$B:$B,'Monthly PIT'!$B5,'Sal-Local'!$DC:$DC,TEXT('Monthly PIT'!$C$1,""yyyymm""))+SUMIFS('Sal-Expat'!$BK:$BK,'Sal-Expat'!$C:$C,'Monthly PIT'!$B5,'Sal-Expat'!$CX:$CX,TEXT('Monthly PIT'!$C$1,""yyyymm""))"
     .Range("N5").Formula = "=SUMIFS('Sal-Local'!$BU:$BU,'Sal-Local'!$B:$B,'Monthly PIT'!$B5,'Sal-Local'!$DC:$DC,TEXT('Monthly PIT'!$C$1,""yyyymm""))+SUMIFS('Sal-Expat'!$BL:$BL,'Sal-Expat'!$C:$C,'Monthly PIT'!$B5,'Sal-Expat'!$CX:$CX,TEXT('Monthly PIT'!$C$1,""yyyymm""))"
